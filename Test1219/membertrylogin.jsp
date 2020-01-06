@@ -51,8 +51,7 @@ if(logtext==true){
 response.sendRedirect("index_afterlogin.html?");
 }
 else if (logtext==false){
-RequestDispatcher dispatcher = request.getRequestDispatcher("memberlogfail.jsp?");
-dispatcher.forward(request,response);
+response.sendRedirect("memberlogfail.html?");
 }
 
 
