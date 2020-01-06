@@ -1,7 +1,7 @@
  // 학원 컴터의 editplus로 js나 css파일을 만들어서 거기에 한글을 붙이면 나중에 한글이 깨진다. 이유는 모름
  //$(document).ready(function()  <<-이거랑 $(function() <<- 이거랑 같다+ 그리고 이거쓰면 길이가 너무 쫙늘어난다.
 
-  <!-- 원래 하던거 -->
+<!-- 원래 하던거 -->
   function namechck()  { //이름을 공백으로 두지 않았는지
   var temp=memtable.nameck.value
   if(temp == '')   { 
