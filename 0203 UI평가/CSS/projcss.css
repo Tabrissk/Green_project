@@ -1,0 +1,142 @@
+
+  header{   /*header의 margin auto를 아예 없에니 center 로고 center 가 생략해도 nav메뉴가 살아난다.*/
+  height:90px;
+		}
+
+	#topnav{ /* 로그인 회원가입을 아예 relative로 배치.*/
+		position:absolute; /* 이게 relative이면 옆에 공간이 생겨서 스크롤이 늘어났다.*/
+		left:1100px;
+		top: 10px;
+		font-family:"Tahoma";
+		font-size:12pt;		
+	}
+	#topnav ul li{ /* inline으로 배치-margin으로 .*/
+		margin-right:10px;
+		display:inline;
+	}
+
+	  #topnav ul li:hover{
+		   background-color: #F0F8FF;
+/*a:hobver는 a링크에 마우스를 올리면 밑에 바닥이 생기게 이뜻임.*//*마우스를 올리면 밑에 바닥이 생기게.*/
+}  
+
+  #menunav ul[id=menu] li:hover{
+   color:#BEBEBE;
+		background-color: #F8F8FF;
+		border:2px solid #F8F8FF;
+	/*a:hobver는 a링크에 마우스를 올리면 밑에 바닥이 생기게 이뜻임.*/
+/*마우스를 올리면 밑에 바닥이 생기게.  #menunav ul[id=menu] li.on <<- 이거는 뭔지 모르겠다.*/
+		}  
+
+ #menunav ul[id=menu]{ /* 브랜드 목록, 전체보기 네비 .*/ /*   이미지는 진짜 안들어가 진다 */
+ margin: 0;
+  height:30px;
+  font-size:15px;
+	background-color: #F8F8FF;
+		}
+
+ #menu ul{list-style-type: none;} 
+ #menu{text-align:center; }
+ #menu li {display : inline;}
+
+  #itemlistbox{  
+position:relative;
+ left:350px;
+} */  /*section안에 div로 묶을때 양옆 정렬 될때 width:1400px; 이것도 표를 넣을려니 이상해서 그냥 생략 */ 
+ /* body의 margin: auto <<- main,section안에 div로 묶을때 양옆 정렬 될때 한번 생략해봄 */
+ 
+ .framelayout{
+ float:left;}
+ 
+ .framelayoutiforLbanner1{	margin-left:300px;	 float:left;}
+
+  #Inbanner1 /* 브랜드 리스트 묶을때 */
+  {width:1200px;
+  height:80px;
+    margin-left:10px;
+	background-color: #f5faff;}
+
+ #brandlist:hover{
+border-bottom:solid #363636;
+border-bottom-width: thin;
+}
+
+  #Inbanner2  /* 브랜드별 제품을 묶을때 */
+    {width:1200px;
+  height:790px;
+   margin-top: 1px;
+    margin-left: 10px; }
+
+    #InbannerAll
+  {width:1200px;
+  height:900px;
+    margin-left: 10px; }
+
+  #Lbanner1  /* 고객센터 */
+  {width:624px;
+  height:110px;
+  background:#F8F8F8; 
+  }  /* border:1px solid #00008B;  <- 보통 퍼퓸그라피를 봐도 보더가 생략되었으니 */
+
+ #Lbanner2 /* 사업자등록번호 */
+  {width:624px;
+  height:110px;
+  border-left:1px solid #00008B;
+  background:#F8F8F8; 
+}
+
+   .layoutart{ /* 제품을 전체제품보기나 브랜드별 보기파일의 section div에 붙일때 div안에 쓸거 .*/
+   float:left;
+  }
+  .layoutart[id=cont]{
+  width:290px;
+  height:380px;
+  margin-left:10px;
+  margin-top:15px;
+  }
+  .layoutart[id=contimg]{
+  width:290px;
+  height:290px;
+  }
+  .layoutart[id=contarticle]{
+  width:290px;
+  height:130px;
+  clear: both;
+  }
+    .itemtitle1{
+  font-size:15px;
+  }                                  
+    .itemtitle2{
+  font-size:10px;
+  }
+
+/* footer라고 주는대신 그냥 아이디를 줌.*/
+ #endfooter  {  width:100%;
+  height:70px;
+  background:#f0f5f5;
+  clear: both; 	
+ }  /**/
+/* 테이블 시작.*/
+  .jointestborder1 {
+    background-color: #0088cc;
+ border:double 4px #f2f2f2;
+   }
+    .jointestborder2 {
+	   background-color: #00cc44;
+ border:double 4px #e6e600;    }
+
+   .tdstyle{
+   border-top:solid 1px #91888a;
+   border-bottom:solid 1px #91888a;
+   text-align: left;    }
+
+   .namecolor{
+    background-color: #E6E6E6;
+	text-align: center;    }
+
+  .introduce_box{
+   background-color : #eeeeee;
+   border: solid 1px #aaaaaaa;
+   border-radius: 15px ;
+   box-shadow: 6px 6px 5px #888888;
+   text-align: center;   }	/* 테이블 끝.*/
